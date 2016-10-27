@@ -1,0 +1,17 @@
+void main[]{
+  int x1=20;
+  int y=30;
+  if[x1>y]{
+     x1=1234;
+  }else{
+     y=1234;
+  }
+
+   *   //an error should ocurred at line 10//
+
+   while[x1!=y]{
+     int counter=10+3-9;
+     //just do something
+   }
+
+}
