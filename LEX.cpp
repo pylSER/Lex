@@ -880,7 +880,7 @@ void renderCFile(NFA mdfa){
 
     fout<<"int main(){"<<endl;
     fout<<"ifstream input;"<<endl;
-    fout<<"input.open("<<testfilepath<<");"<<endl;
+    fout<<"input.open(\""<<testfilepath<<"\");"<<endl;
     fout<<"int c=input.get();"<<endl;
     fout<<"while (!isOver) {isGotOne=0;"<<endl;
     fout<<"if (c==-1) isOver=1;"<<endl;
